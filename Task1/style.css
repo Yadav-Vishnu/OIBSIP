@@ -1,0 +1,120 @@
+
+ body {
+ background-image:url(6.png);  
+
+  background-size: 100%; 
+
+  background-attachment: fixed;
+ 
+  
+}
+#heading {
+  width: 100%;
+  height: auto;
+  /* background-image: url(971.jpg); */
+  
+border-radius: 5px;
+
+background-color:rgba(0, 9, 12, 0.387);
+  
+  color: turquoise;
+ padding: 5px;
+ 
+}
+#chapter {
+  text-align: left;
+}
+#chap_name{
+  text-align: center;
+}
+#name{
+  text-align: right;
+}
+.odd{
+ width: 100%;
+ height: auto;
+ background-color: rgb(28, 208, 228,0.5);
+ opacity: 1;
+ border-radius: 20px;
+padding: 10px;
+margin: 5px;
+}
+.even{
+ width: 100%;
+ height: auto;
+ background-color: rgb(14, 113, 174,0.5);
+ opacity: 1;
+ border-radius: 20px;
+ padding: 10px;
+ margin: 5px;
+}
+.H1{
+ text-align: left;
+ text-decoration: underline;
+ font-weight: bold;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgba(120, 231, 28, 0.796);
+ font-style: normal;
+}
+.text{
+ color: rgb(24, 235, 168);
+ font-family: 'Ubuntu', sans-serif;
+ 
+}
+.Note{
+ margin: 5px;
+ padding: 5px;
+ background-color: black;
+ border-radius: 10px;
+ opacity: 0.8;
+ border-style:dashed;
+ 
+}
+.note{
+ font-style: oblique;
+ color: turquoise;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2px;
+    color:rgb(0, 0, 0);
+    width: 100%;
+    font-weight: bold;
+}
+hr
+{
+    border-top:5px  rgb(255, 132, 0) dashed;
+}
+#nav {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+a{
+  padding: 25px;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+a:hover{
+ 
+  text-decoration:underline;
+  color:brown;
+}
+
+.button{
+  background-color: turquoise;
+  padding: 5px;
+  
+  border-radius: 50px;
+  margin: auto;
+}

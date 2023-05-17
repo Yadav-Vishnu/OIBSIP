@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Come with me |chap1</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+    </style>
+
+  </head>
+  <body>
+    
+    <!-- header -->
+    <!-- header -->
+    <!-- header -->
+    <div id="heading">
+      <h2 id="chapter">
+        Chapter 1 
+      </h2>
+      <h1 id="chap_name">Fundamentals of C </h1>
+      <h3 id="name">Go With C</h3>
+    </div>
+    <!-- content  -->
+    <!-- content  -->
+    <!-- content  -->
+    <nav>
+      <div id="nav">
+        <div class="button">   <a href="#">Home </a></div>
+        <div class="button"><a href="#">Content </a></div>
+        <div class="button"> <a href="https://www.codechef.com/problems/school" target="_blank">Practice </a> </div>
+        <div class="button"><a href="#">Contact Us </a></div>
+        <div class="button"><a href="#">Log in </a></div>
+        <div class="button"> <a href="Sign_in.html" target="_blank">Sign in </a> </div>
+        <div class="button">  <a href="#">Reviews </a> </div>
+       
+          
+        
+          
+          
+        
+    
+      </div>
+  
+     </nav>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="odd">
+        <!-- <h2 class="H1"> Sub topic</h2> -->
+        <p class="text">In this chapter we learn about the basic elements of C. These elements are used to compose a C 
+          program.</p>
+        <p class="text">These elements include the C character set, identifier, keywords, data type, constant, variables and arrays, 
+          declaration expression and statements. Here we only learn basic of these elements</p>
+        <!-- <div class="Note">
+          <h4 class="note"><strong>Note :</strong> Write your note here</h4>
+        </div> -->
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="even">
+        <h2 class="H1">  THE CHARACTER SET</h2>
+        <p class="text">C uses the uppercase letters A to Z, the lowercase letters a to z, the digits 0 to 9, and certain special 
+          characters as building blocks to form basic program elements.</p>
+          
+        <table>
+          <tr>
+            <td>
+              +
+            </td>
+            <td>
+              -
+            </td>
+            <td>
+              *
+            </td>
+            <td>
+              /
+            </td>
+            <td>
+              =
+            </td>
+            <td>
+              %
+            </td>
+            <td>
+              &
+            </td>
+            <td>
+              #
+            </td>
+          </tr>
+          <tr>
+            <td>
+              !
+            </td>
+            <td>
+              ?
+            </td>
+            <td>
+              ^
+            </td>
+            <td>
+              "
+            </td>
+            <td>
+              '
+            </td>
+            <td>
+              ~
+            </td>
+            <td>
+              \
+            </td>
+            <td>
+              |
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <
+            </td>
+            <td>
+              >
+            </td>
+            <td>
+              (
+            </td>
+            <td>
+              )
+            </td>
+            <td>
+              [
+            </td>
+            <td>
+            ]
+            </td>
+            <td>
+              {
+            </td>
+            <td>
+            }
+            </td>
+          </tr>
+          <tr>
+            <td>
+              :
+            </td>
+            <td>
+              ;
+            </td>
+            <td>
+              .
+            </td>
+            <td>
+              ,
+            </td>
+            <td>
+              _
+            </td>
+            <td colspan="3">
+              BLANK SPACE
+            </td>
+        
+          </tr>
+        </table>
+          
+          
+        <div class="Note">
+          <h4 class="note"><strong>Note :</strong>
+            In C upper-case and lower-case character treated as different. ‘A’ and ‘a’ are not same.
+            </h4>
+        </div>
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="odd">
+        <h2 class="H1">  IDENTIFIER </h2>
+        <p class="text">Identifier is nothing but it is a name given to an element (e.g., variables, functions, and arrays) in 
+          program to identify that particular element. </p>
+          <h4 class="note" style="color:maroon;"><strong>Rules for IDENTIFIER
+            :</strong>
+             </h4>
+             <ol type="1">
+               <li>
+                The first letter of an identifier must not be a number, it may be an alphabet or only an under-score.
+               </li>
+               <li>
+                Keywords can not be use as an identifier.
+               </li>
+               <li>
+                We can not use any symbol and any special character in writing the identifier. <strong>EXCEPT Under-score.</strong>
+
+               </li>
+             </ol>
+             <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+             <p style="color:navy;">FOR EX : - The following are the valid IDENTIFIERS.</p>
+             
+             <ul type="none " style="color:maroon ">
+               <li>&nbsp;X &nbsp;&nbsp;Y12 &nbsp;&nbsp;Sum_1 &nbsp;&nbsp;_temperature</li>
+               <li>
+                &nbsp;Name &nbsp;&nbsp;Area &nbsp;&nbsp;Tax_rate &nbsp;&nbsp;Table
+               </li>
+             </ul>
+             </div>
+             <div class="Note">
+              <h4 class="note"><strong>Note :</strong> We can write long identifier but it is not right, some compilers make difference between two 
+                identifiers up to 8 character.
+                </h4>
+            </div>
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="even">
+        <h2 class="H1">  KEYWORDS
+        </h2>
+        <p class="text">There are certain reserved words, called keywords, that have standard, predefined meanings in C.
+        </p>
+        <!-- table  -->
+      <table>
+        <tr>
+          <td>
+            auto
+          </td>
+          <td>
+           extern
+          </td>
+          <td>
+            sizeof
+          </td>
+          <td>
+            break
+          </td>
+          <td>
+            floatn
+          </td>
+          <td>
+            static
+          </td>
+          <td>
+            case
+          </td>
+          <td>
+            for
+          </td>
+        </tr>
+        <tr>
+          <td>
+            struct
+          </td>
+          <td>
+           char
+          </td>
+          <td>
+            goto
+          </td>
+          <td>
+            switch
+          </td>
+          <td>
+            const
+          </td>
+          <td>
+            if
+          </td>
+          <td>
+            typedef
+          </td>
+          <td>
+            continue
+          </td>
+        </tr>
+        <tr>
+          <td>
+            int
+          </td>
+          <td>
+           union
+          </td>
+          <td>
+            default
+          </td>
+          <td>
+            long
+          </td>
+          <td>
+            unsigned
+          </td>
+          <td>
+            do
+          </td>
+          <td>
+            register
+          </td>
+          <td>
+            void
+          </td>
+        </tr>
+        <tr>
+          <td>
+            double
+          </td>
+          <td>
+           return
+          </td>
+          <td>
+            volatile
+          </td>
+          <td>
+            else
+          </td>
+          <td>
+            short
+          </td>
+          <td>
+            while
+          </td>
+          <td>
+            enum
+          </td>
+          <td>
+            signed
+          </td>
+        </tr>
+      </table>
+        
+        <!-- <div class="Note">
+          <h4 class="note"><strong>Note :</strong> Write your note here</h4>
+        </div> -->
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="odd">
+        <h2 class="H1">   DATA TYPE
+        </h2>
+        <p class="text">In C there are different type of data type we use, first we giving the name of a variable we must have 
+          to define its data type.</p>
+        <!-- <div class="Note">
+          <h4 class="note"><strong>Note :</strong> Write your note here</h4>
+        </div>
+      </div> -->
+    <ol type="a">
+      <li>
+        <h3 class="H1">
+          INT Data Type
+        </h3>
+        <p class="text">
+          This data type is defined only for integers. This data type takes 2byte memory of our storage.
+
+        </p>
+        <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+        <p style="color:navy;">FOR EX : - &nbsp;2 &nbsp;&nbsp;4 &nbsp;&nbsp;6 &nbsp;&nbsp;8</p>
+        </div>
+      </li>
+      <li>
+        <h3 class="H1">
+          Char DATA TYPE
+        </h3>
+        <p class="text">
+          In this data type we store a single character such as lower case, upper case letter and especial 
+          character.
+          
+
+        </p>
+        <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+        <p style="color: navy;">FOR EX : - &nbsp;A &nbsp;&nbsp;# &nbsp;&nbsp;@ &nbsp;&nbsp;5</p>
+        </div>
+      </li>
+      <li>
+        <h3 class="H1">
+          Float and double DATA TYPE
+        </h3>
+        <p class="text">
+          This data type is defined for real numbers. In this we can store fractional values.
+        </p>
+        <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+        <p style="color:navy;">FOR EX : - &nbsp;2.5 &nbsp;&nbsp;3.88 &nbsp;&nbsp;75.21 &nbsp;&nbsp;0.02</p>
+        </div>
+      </li>
+    </ol>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="even">
+        <h2 class="H1"> CONSTANT  </h2>
+        <p class="text">There are four basic types of constants in C. They are integer constants, floating-point constants, 
+          character constants and string constants.
+          </p>
+        <!-- <div class="Note">
+          <h4 class="note"><strong>Note :</strong> Write your note here</h4>
+        </div> -->
+        <ol type="a">
+          <li>
+            <h3 class="H1">
+              Numerical-type constant
+            </h3>
+            <p class="text">
+              Integer and floating-point constants represent numbers. They are often referred to collectively as 
+numeric-type constants.
+            </p>
+            <div class="Note">
+              <h4 class="note"><strong>The following rules apply to all numeric-type constants.
+                :</strong> 
+                <ul >
+                  <li>
+                    Commas and blank spaces cannot be included within the constant.
+                  </li>
+                  <li>
+                    The value of a constant cannot exceed specified minimum and maximum bounds.
+                  </li>
+                </ul>
+              </h4>
+            </div>
+          </li>
+          <li>
+            <h3 class="H1">
+              Floating-point constant: -
+
+            </h3>
+            <p class="text">
+              A floating-point constant is a base- 10 number that contains either a decimal point or an exponent (or 
+              both).
+              Floating-point constants have a much greater range than integer constants.
+            </p>
+            
+          </li>
+          <li>
+            <h3 class="H1">
+               Character constant: -
+
+            </h3>
+            <p class="text">
+              A character constant is a single character, enclosed in apostrophes (i.e., 
+              single quotation marks).
+              Character constants have integer values that are determined by the computer's particular 
+              character set.
+              
+            </p>
+
+          </li>
+          <li>
+            <h3 class="H1">
+              String constant: -
+
+            </h3>
+            <p class="text">
+              A string constant consists of any number of consecutive characters (including 
+              none), enclosed in (double) quotation marks.
+              
+            </p>
+
+          </li>
+        </ol>
+        <div class="Note">
+          <h4 class="note"><strong>Note :</strong> A character constant has its cross-ponding integer value but a string constant have not 
+            integer value.</h4>
+        </div>
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="odd">
+        <h2 class="H1">  VARIABLES AND ARRAYS: - </h2>
+        <p class="text">A variable is an identifier that is used to represent some 
+          specified type of information within a designated portion of the program. The data item can then be 
+          accessed later in the program simply by referring to the variable name. A given variable can be assigned 
+          different data items at various places within the program.
+          </p>
+        <p class="text">The array is another kind of variable. An array is an identifier that refers to a collection of data items that all 
+          have the same name. The data items must all be of the same type (e.g., all integers, all characters, etc.).</p>
+        <!-- <div class="Note">
+          <h4 class="note"><strong>Note :</strong> Write your note here</h4>
+        </div> -->
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="even">
+        <h2 class="H1">  DECLARATION: - </h2>
+        <p class="text">A declaration associates a group of variables with a specific data type. All 
+          variables must be declared before they can appear in executable statements</p>
+        <p class="text">A declaration consists of a data type, followed by one or more variable names, ending with a semicolon. </p>
+        <!-- examlpe -->
+        <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+        <p style="color: navy;">
+        FOR EX:-</p>
+        <!-- table -->
+        <table>
+          <tr>
+            <td>int a,b,c</td>
+            <td>int a</td>
+            <td>int b</td>
+            <td>int c</td>
+            <td>int a[2]</td>
+          </tr>
+          <tr>
+            <td>float a,b,c</td>
+            <td>float a</td>
+            <td>float b</td>
+            <td>float c</td>
+            <td>float a[2]</td>
+          </tr>
+          <tr>
+            <td>char a,b,c</td>
+            <td>char a</td>
+            <td>char b</td>
+            <td>char c</td>
+            <td>char a[2]</td>
+          </tr>
+        </table>
+        </div>
+        <!-- <div class="Note">
+          <h4 class="note"><strong>Note :</strong> Write your note here</h4>
+        </div> -->
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="odd">
+        <h2 class="H1">  EXPRESSION: -  </h2>
+        <p class="text">An expression represents a single data item, such as a number or a character. 
+          The expression may consist of a single entity, such as a constant, a variable, an array element or a 
+          reference to a function. It may also consist of some combination of such entities, interconnected by one 
+          or more operators.</p>
+        <!-- <div class="Note">
+          <h4 class="note"><strong>Note :</strong> </h4>          
+         </div> -->
+         <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+         <p style="color:navy;">
+          FOR EX:- Several simple expressions are shown below
+          <br>
+          <br>
+          a+b <br><br>
+          x=y <br><br>
+          c=a+b <br><br>
+          x &lt;= y <br><br>
+          x == y <br><br>
+          ++X
+          </p>
+          </div>
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="even">
+        <h2 class="H1">  STATEMENTS: -
+        </h2>
+        <p class="text">A statement causes the computer to carry out some action. There are three different classes of statements 
+          in C. They are expression statements, compound statements and control statements.
+          </p>
+          <ul type="none">
+            <li>
+              <h2 class="H1">  Compound Statement </h2>
+        <p class="text">A compound statement consists of several individual statements enclosed within a pair of 
+          braces { }. The individual statements may themselves be expression statements, compound 
+          statements or control statements.
+          </p>
+          <!-- examlpe -->
+          <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+          <p style="color:navy;">
+            FOR EX:- Several simple expressions are shown below
+            <br>
+            <br>
+            { <br>
+            a+b ; <br><br>
+            x=y ; <br><br>
+            c=a+b ; <br><br>
+            x &lt;= y ; <br><br>
+            x == y ; <br><br>
+            printf (" Area = %f",area) ;
+            }
+            
+            </p>
+            </div>
+            </li>
+            <li>
+              <h2 class="H1">  Control statements </h2>
+              <p class="text">Control statements are used to create special program features, such as logical tests, loops 
+                and branches. Many control statements require that other statements be embedded within 
+                them.
+                </p>
+                <!-- examlpe -->
+                <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+                <p style="color:navy;">
+                  FOR EX:-
+                  <p style="color: navy;">
+                    while (count &lt= n) { <br>
+                      Printf (“x = “); <br>
+                      scanf ( "%f" , &x) ; <br>
+                      sum += x; <br>
+                      ++count; 
+                      }
+                  </p>
+                </p>
+                </div>
+            </li>
+          </ul>
+        <!-- <div class="Note">
+          <h4 class="note"><strong>Note :</strong> Write your note here</h4>
+        </div> -->
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1" >
+      <hr>
+    </marquee>
+    <section >
+      <div class="odd">
+        <h2 class="H1"> SYMBOLIC CONSTANT: - </h2>
+        <p class="text">Symbolic constants are usually defined at the beginning of a program. The symbolic constants 
+          may then appear later in the program in place of the numeric constants, character constants, 
+          etc. that the symbolic constants represent.</p>
+          <p class="text">A symbolic constant is defined by writing
+            <br>
+            #define name text 
+          </p>
+          <!-- example -->
+          <div style="background-color: cornsilk; padding: 5px; border-radius: 5px;margin-top: 5px;opacity: 0.8;"> 
+         
+          <!-- <h3 class="note">Note :</h3> -->
+          <p style="color: navy;">FOR EX:-
+            <p>
+               
+#include<sdtio.h> 
+  #define pi 3.144527 <br>
+  Int main () <br>
+  { <br>
+  int radius, area; <br>
+  printf(“Enter the radius of circle”); <br>
+  scanf(“%d”, &radius); <br>
+  area= pi*radius*radius; <br>
+  printf(“Area of circle is = %d“, area); <br>
+  return 0; <br>
+  } 
+            </p>
+          </p>
+          <h3>Result:-</h3> 
+          <p> Enter the radius of circle <u>5</u>
+          <br>
+        Area of circle is 78</p>
+        </div> 
+      </div>
+    </section>
+    <marquee behavior="alternate" direction="up" scrollamount="1"  >
+    <hr>
+  </marquee>
+
+  </body>
+</html>
