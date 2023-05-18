@@ -1,0 +1,37 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    background-color: rgba(167, 232, 232, 0.538);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border: dotted blue 2px; */
+    letter-spacing: 4px;
+}
+input{
+    padding: 6px;
+     margin: 10px;
+    /* margin-right: 5px;  */
+    border: none;
+    border-bottom: solid black 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+button{
+    padding: 5px;
+    margin:8px ;
+    width: 120px;
+    background-color:rgb(148, 163, 228);
+    border-radius: 15px;
+    border: none;
+}
+span{
+    margin-right: 5px;
+    display: block;
+    text-decoration: underline;
+}
+p{
+    color: rgb(147, 20, 220);
+}

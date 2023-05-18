@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Temperature converter </h1>
+  <p *ngIf="flag01">Celsius to Fahrenhite</p>
+  <p *ngIf="flag02">Fahrenhite to Celsius</p>
+  <span>Celsius :</span> <input type="text" (focusout)="c(text01.value)" #text01 [value]="temp01">
+  <br>
+ <span>Fahrenhite :</span> <input type="text" #text02 (focusout)="f(text02.value)" [value]="temp02">
+  <br>
+  <button (click)="convert()">Convert</button>
+</div>
