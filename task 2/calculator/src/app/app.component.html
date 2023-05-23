@@ -1,0 +1,34 @@
+<h1>Calculator</h1>
+<div class="container">
+ 
+  <div class="cal">
+    <input type="text" [value]="cal" onkeydown="return false">
+    <div class="butt">
+      <div class="l-btn" >
+        <button (click)="take('1')">1</button>
+        <button (click)="take('2')">2</button>
+        <button (click)="take('3')">3</button>
+        <button (click)="take('+')">+</button>
+      </div>
+      <div class="l-btn" >
+        <button (click)="take('4')">4</button>
+        <button (click)="take('5')">5</button>
+        <button (click)="take('6')">6</button>
+        <button (click)="take('-')">-</button>
+      </div>
+      <div class="l-btn" >
+        <button (click)="take('7')">7</button>
+        <button (click)="take('8')">8</button>
+        <button (click)="take('9')">9</button>
+        <button (click)="take('/')">/</button>
+      </div>
+      <div class="l-btn" >
+        <button (click)="take('0')">0</button>
+        <button (click)="print()">Ans</button>
+        <button (click)="clear()">Clear</button>
+        <button (click)="take('*')">*</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
