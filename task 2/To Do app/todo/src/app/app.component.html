@@ -1,0 +1,18 @@
+<p >
+  <span>To - Do </span>
+</p>
+<div class="add">
+  <input type="text" placeholder="Add your task hare....." #val  />
+  <button (click)="get(val.value)" (click)="val.value=''">ADD</button>
+</div>
+<div class="container" *ngFor="let i of value;">
+  <div class="main" *ngIf="i.length>0  "  >
+    <ul >
+      <li >
+        {{i}}
+
+      </li>
+      <button (click)="delete(i)">Remove</button>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  span{
+    font-size: 1.3rem;
+    color: #D0F5BE;
+    border-bottom: 2px solid white;
+  }
+  input{
+    /* margin-top: 2rem; */
+    display:block;
+    width: 90%;
+    color: #2CD3E1;
+    height: 3rem;
+    border: none;
+    border-bottom: 3px solid #FFA3FD;
+    padding-left: 1.2rem;
+  }
+  input[type='text']{
+    background-color: rgba(0, 0, 0, 0.713);
+  }
+  
+  .add{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 2rem;
+    
+  }
+
+  .add button{
+    background-color: rgba(31, 220, 21, 0.523);
+    color: #D0F5BE;
+    display: block;
+    margin-left: 1.5rem;
+    padding: .8rem;
+    border: none;
+    font-weight: bold;
+    letter-spacing: .2rem;
+  }
+
+  input:focus{
+    border: none;
+  }
+  p{
+    text-align: center;
+    padding: 1rem;
+    font-weight: bolder;
+    background-color: #142135fc;
+  }
+  .container{
+    padding-left: 2rem;
+
+  }
+
+  .main{
+    background-color: rgba(95, 158, 160, 0.687);
+    width: 92%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul li{
+    color:#18122B ;
+    font-size: 1.1rem;
+  }
+
+  .main button{
+    border: none;
+    padding: .5rem;
+    background-color: #ef5555;
+    border-radius: 1rem;
+  }
+
+  .hide{
+    display: none;
+  }
